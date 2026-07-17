@@ -1,0 +1,37 @@
+Package: bioscrna
+Type: Package
+Title: Single-Cell Gene Expression Analysis Pipeline
+Version: 1.0.0
+Authors@R: person("Mengrui", "Zhang",
+                  email = "mrzhang@stanford.edu",
+                  role = c("aut", "cre"))
+Description: Tools for a Bioconductor-based single-cell RNA-seq analysis
+    pipeline, including 10X data loading, quality control, normalization,
+    dimension reduction, batch correction, clustering, marker detection,
+    and common visualization helpers for SingleCellExperiment objects.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+Depends:
+    R (>= 4.0)
+Imports:
+    batchelor,
+    BiocParallel,
+    bluster,
+    dittoSeq,
+    DropletUtils,
+    ggplot2,
+    grDevices,
+    Matrix,
+    MatrixGenerics,
+    methods,
+    scater,
+    scran,
+    scuttle,
+    SingleCellExperiment,
+    stats,
+    SummarizedExperiment,
+    utils
+Suggests:
+    harmony
+Config/roxygen2/version: 8.0.0

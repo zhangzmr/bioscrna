@@ -1,0 +1,21 @@
+# R / RStudio
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+*.Rcheck/
+*.tar.gz
+inst/doc
+
+# OS / editor
+.DS_Store
+.AppleDouble
+.LSOverride
+*~
+.vscode/
+.idea/
+
+# Package build products
+src/*.o
+src/*.so
+src/*.dll
