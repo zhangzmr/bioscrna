@@ -9,7 +9,7 @@ Description: Tools for a Bioconductor-based single-cell RNA-seq analysis
     pipeline, including 10X data loading, quality control, normalization,
     dimension reduction, batch correction, clustering, marker detection,
     and common visualization helpers for SingleCellExperiment objects.
-License: MIT + file LICENSE
+License: GPL-3
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 Depends:

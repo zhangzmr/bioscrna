@@ -47,4 +47,6 @@ library(bioscrna)
 
 ## License
 
-MIT © Mengrui Zhang
+Copyright (C) 2026 Mengrui Zhang.
+
+bioscrna is released under the [GNU General Public License v3.0](LICENSE) (GPL-3). You may use, modify, and distribute it, including for commercial purposes, if you keep the copyright notice and release distributed derivatives under GPL-3 as well. That requires credit and blocks closed-source redistribution of this code.
